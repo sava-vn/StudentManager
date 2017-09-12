@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:background="@color/colorTim"
+    android:layout_width="320dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/tv_dal_id2"
+        android:textSize="24sp"
+        android:textColor="@color/colorWhite"
+        android:text="01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_marginLeft="16dp"
+        android:textColor="#efdc2e"
+        android:paddingLeft="6dp"
+        android:id="@+id/edt_dal_name"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_marginLeft="16dp"
+        android:textColor="#efdc2e"
+        android:paddingLeft="6dp"
+        android:id="@+id/edt_dal_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_marginLeft="16dp"
+        android:textColor="#efdc2e"
+        android:paddingLeft="6dp"
+        android:id="@+id/edt_dal_email"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_marginLeft="16dp"
+        android:textColor="#efdc2e"
+        android:paddingLeft="6dp"
+        android:id="@+id/edt_dal_address"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+        <Button
+            android:layout_marginLeft="16dp"
+            android:textSize="20sp"
+            android:text="CANCEL"
+            android:id="@+id/btn_cancel"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_marginRight="16dp"
+            android:textSize="20sp"
+            android:id="@+id/btn_save"
+            android:text="SAVE"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

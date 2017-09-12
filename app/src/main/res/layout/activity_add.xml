@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorTim"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:inputType="textImeMultiLine"
+            android:textColorHint="@color/colorSilver"
+              android:textColor="@color/colorWhite"
+            android:id="@+id/edt_name"
+            android:backgroundTint="@color/colorWhite"
+            android:paddingLeft="8dp"
+            android:hint="Name"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:inputType="textImeMultiLine"
+            android:textColorHint="@color/colorSilver"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/edt_number"
+            android:backgroundTint="@color/colorWhite"
+            android:paddingLeft="8dp"
+            android:hint="Phone Number"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:inputType="textImeMultiLine"
+            android:textColorHint="@color/colorSilver"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/edt_email"
+            android:backgroundTint="@color/colorWhite"
+            android:paddingLeft="8dp"
+            android:hint="Email"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:inputType="textImeMultiLine"
+            android:textColorHint="@color/colorSilver"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/edt_address"
+            android:backgroundTint="@color/colorWhite"
+            android:paddingLeft="10dp"
+            android:hint="Address"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_add"
+           android:background="@drawable/custom_button1"
+            android:layout_marginTop="10dp"
+            android:text="ADD"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
